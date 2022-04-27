@@ -1,0 +1,18 @@
+**customized buttons**
+<Button
+        variant="contained"
+        sx={{
+          backgroundColor: "skyblue",
+          color: "grey",
+          margin: 5,
+          "&:hover": {
+            backgroundColor: "green",
+          },
+          "&:disabled": {
+            backgroundColor: "gray",
+            color: "white",
+          },
+        }}
+      >
+        Customized Button
+      </Button>
